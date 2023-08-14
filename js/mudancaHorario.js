@@ -42,6 +42,7 @@ const horarios = [
     },
   },
 ]
+let teste = undefined;
 
 
 function interpolateColor(color1, color2, ratio) {
@@ -54,9 +55,11 @@ function interpolateColor(color1, color2, ratio) {
 function updateBackgroundColor() {
   const periodoAtual = checaHora();
   const dados = getDadosPerido(periodoAtual);
-  // console.log(dados.horario[0]);
-  // console.log(dados.horario[1]);
-  // console.log(dados.cores[1])
+
+  console.group;
+  console.log(periodoAtual);
+  console.log(dados);
+  console.groupEnd;
 
   const [startColor1, startColor2] = dados.cores.from; // Cor inicial (preta)
   const [endColor1, endColor2] = dados.cores.to; // Cor final (laranja)
@@ -79,14 +82,16 @@ function updateBackgroundColor() {
 
 updateBackgroundColor();
 
-function checaHora() {
-  const horaAtual = new Date().getHours();
 
+function checaHora() {
+  // const horaAtual = new Date().getHours();
+
+  const horaAtual = setHora();
   for (const periodo of horarios) {
     const chave = Object.keys(periodo)[0];
     const [periodoInicio, periodoFim] = periodo[chave].horario;
 
-    if (horaAtual > periodoInicio && horaAtual < periodoFim) {
+    if (horaAtual >= periodoInicio && horaAtual <= periodoFim) {
       return chave;
     }
   }
@@ -98,4 +103,26 @@ function getDadosPerido(periodoAtual) {
       return periodo[periodoAtual];
     }
   }
+}
+
+
+function setHora() {
+  let tempo;
+  if(teste == undefined) {
+    tempo = new Date().getHours();
+  } else {
+    tempo = new Date();
+    tempo.setHours(teste);
+    tempo = tempo.getHours();
+  }
+ 
+  console.log(tempo);
+  const horaAtual = new Date().getHours();
+  return tempo
+}
+function setTest(hora) {
+  teste = hora;
+  setHora();
+  updateBackgroundColor();
+  console.log(teste);
 }
