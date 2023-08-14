@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-br">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <link href="./css/reset.css" rel="stylesheet" type="text/css">
+  <link href="./css/styles.css" rel="stylesheet" type="text/css">
+
+  <style>
+    body {
+      background-color: #000;
+      transition: background-color 1s;
+    }
+  </style>
 </head>
+<script>
+  //AIzaSyDW-HXqhJToIsAoLnvfExAO9dWQFaxYxAg
+</script>
 
-<body>
+<body class="corpo" data-fundo>
+  <main class="corpo__ilustracao">
+    <div class="box">
+      <select name="" id="">
+        <option value="pt">
+          <img src="" alt="">
+          Brasil
+        </option>
+        <option value="en" selected>
+          <img src="" alt="">
+          Inglês
+        </option>
+      </select>
+      <input type="text" name="" id="" class="box__say" data-hello-word value="Hello World" disabled>
+    </div>
+  </main>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
+  <script type="module" src="./js/metodoTraduzir.js"></script>
+  <script src="./js/mudancaHorario.js"></script>
 </body>
+
 </html>
