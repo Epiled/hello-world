@@ -56,22 +56,17 @@ function updateBackgroundColor() {
   const periodoAtual = checaHora();
   const dados = getDadosPerido(periodoAtual);
 
-  console.group;
-  console.log(periodoAtual);
-  console.log(dados);
-  console.groupEnd;
-
   const [startColor1, startColor2] = dados.cores.from; // Cor inicial (preta)
   const [endColor1, endColor2] = dados.cores.to; // Cor final (laranja)
-  const startTime = new Date().setHours(14, 24, 0, 0); // 00:00
-  const endTime = new Date().setHours(14, 30, 0, 0); // 06:00
+  const startTime = new Date().setHours(dados.horario[0], 0, 0, 0); // 00:00
+  const endTime = new Date().setHours(dados.horario[1], 36, 0, 0); // 06:00
 
   const currentTime = new Date().getTime();
   const elapsedTime = Math.max(0, Math.min(currentTime - startTime, endTime - startTime));
   const totalTime = endTime - startTime;
 
   const ratio = elapsedTime / totalTime;
-  const interpolatedColor = `linear-gradient(${interpolateColor(startColor1, startColor2, ratio)}, ${interpolateColor(endColor1, endColor2, ratio)})`;
+  const interpolatedColor = `linear-gradient(${interpolateColor(startColor1, endColor1, ratio)}, ${interpolateColor(startColor2, endColor2, ratio)})`;
 
   document.body.style.background = interpolatedColor;
 
@@ -84,9 +79,9 @@ updateBackgroundColor();
 
 
 function checaHora() {
-  // const horaAtual = new Date().getHours();
+  const horaAtual = new Date().getHours();
 
-  const horaAtual = setHora();
+  // const horaAtual = setHora();
   for (const periodo of horarios) {
     const chave = Object.keys(periodo)[0];
     const [periodoInicio, periodoFim] = periodo[chave].horario;
@@ -106,23 +101,23 @@ function getDadosPerido(periodoAtual) {
 }
 
 
-function setHora() {
-  let tempo;
-  if(teste == undefined) {
-    tempo = new Date().getHours();
-  } else {
-    tempo = new Date();
-    tempo.setHours(teste);
-    tempo = tempo.getHours();
-  }
+// function setHora() {
+//   let tempo;
+//   if(teste == undefined) {
+//     tempo = new Date().getHours();
+//   } else {
+//     tempo = new Date();
+//     tempo.setHours(teste);
+//     tempo = tempo.getHours();
+//   }
  
-  console.log(tempo);
-  const horaAtual = new Date().getHours();
-  return tempo
-}
-function setTest(hora) {
-  teste = hora;
-  setHora();
-  updateBackgroundColor();
-  console.log(teste);
-}
+//   console.log(tempo);
+//   const horaAtual = new Date().getHours();
+//   return tempo
+// }
+
+// function setTest(hora) {
+//   teste = hora;
+//   setHora();
+//   updateBackgroundColor();
+// }
