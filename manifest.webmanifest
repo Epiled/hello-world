@@ -1,0 +1,25 @@
+{
+    "short_name": "API de Tradução",
+    "name": "API de tradução - Google",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "them-color": "#ffffff",
+    "background_color": "#063147",
+    "background-color": "#063147",
+    "description": "Página para consumir a API de tradução do Google",
+    "icons": [
+        {
+            "src": "assets/images/pwa/pwa_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/pwa/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        }
+    ]
+}
