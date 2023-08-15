@@ -25,7 +25,7 @@ function criaOpcao(opcao) {
   item.classList.add('bandeira');
   item.dataset.sigla = `${opcao.sigla}`;
   item.innerHTML = `
-  <img class="bandeira__imagem" src="./images/bandeiras/${opcao.bandeira}" alt="Bandeira - ${opcao.nome}">
+  <img class="bandeira__imagem" src="./assets/images/bandeiras/${opcao.bandeira}" alt="Bandeira - ${opcao.nome}">
   <span class="bandeira__lingua" data-bandeira-pais="${opcao.nome}">${opcao.lingua}</span>
   `
   adicionaEventoClick(item);

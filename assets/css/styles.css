@@ -13,6 +13,7 @@
   align-items: center;
   height: 100%;
   width: 100%;
+  overflow: auto;
 }
 
 .box {
@@ -27,11 +28,22 @@
   box-shadow: 0 0 1rem .5rem #1cd4a63f;
 }
 
+.box__campo {
+  position: relative;
+}
+
+.box__etq {
+  position: absolute;
+  left: -100vw;
+  font-size: 1.2rem;
+}
+
 .box__say {
   border: 0;
   background: none;
   font-size: 2.5rem;
   text-align: center;
+  width: 100%;
 }
 
 .bandeiras {
