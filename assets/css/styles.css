@@ -1,0 +1,100 @@
+.corpo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.corpo__ilustracao {
+  background: url(../images/lago-01.svg) center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  font-size: 3rem;
+  padding: 3rem;
+  background: #ffffff;
+  border-radius: .25rem;
+  max-width: 80vw;
+  box-shadow: 0 0 1rem .5rem #1cd4a63f;
+}
+
+.box__say {
+  border: 0;
+  background: none;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.bandeiras {
+  position: relative;
+  color: #313131;
+}
+
+.bandeira {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: .5rem;
+}
+
+.bandeira:not(.bandeira__selecionada):hover {
+  background: #0077cf;
+  color: #ffffff;
+}
+
+.bandeira__selecionada {
+  border: .1rem solid #063147;
+  border-radius: .25rem;
+  position: relative;
+  color: #313131;
+}
+
+.bandeira__selecionada::after {
+  content: '';
+  position: absolute;
+  top: .5rem;
+  right: 0rem;
+  width: 3rem;
+  height: 3rem;
+  background: url(../images/arrow.svg) center / 1.25rem no-repeat;
+  transform: rotate(180deg);
+  animation-name: boing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.bandeira__selecionada--ativo {
+  border-radius: .25rem .25rem 0 0;
+}
+
+.bandeira__imagem {
+  max-width: 2.5rem;
+}
+
+.bandeira__lingua {
+  font-size: 1.8rem;
+  color: inherit;
+}
+
+.bandeira__opcoes {
+  position: absolute;
+  display: none;
+  width: 100%;
+  background: #fff;
+  border: .1rem solid #063147;
+  border-top: 0;
+  border-radius: 0 0 .25rem .25rem;
+}
+
+.bandeira__opcoes--ativo {
+  display: block;
+}

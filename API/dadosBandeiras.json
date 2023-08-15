@@ -1,0 +1,46 @@
+{
+  "paises": [
+    {
+      "id": 1,
+      "nome": "Brasil",
+      "lingua": "Português",
+      "sigla": "pt",
+      "bandeira": "br.svg"
+    },
+    {
+      "id": 2,
+      "nome": "França",
+      "lingua": "Francês",
+      "sigla": "fr",
+      "bandeira": "fr.svg"
+    },
+    {
+      "id": 3,
+      "nome": "Itália",
+      "lingua": "Italiano",
+      "sigla": "it",
+      "bandeira": "it.svg"
+    },
+    {
+      "id": 4,
+      "nome": "Japão",
+      "lingua": "Japonês",
+      "sigla": "ja",
+      "bandeira": "jp.svg"
+    },
+    {
+      "id": 5,
+      "nome": "México",
+      "lingua": "Espanhol",
+      "sigla": "es",
+      "bandeira": "mx.svg"
+    },
+    {
+      "id": 6,
+      "nome": "Canada",
+      "lingua": "Inglês",
+      "sigla": "en",
+      "bandeira": "ca.svg"
+    }
+  ]
+}

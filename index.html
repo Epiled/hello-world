@@ -7,38 +7,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my-first-website</title>
   <link href="./css/reset.css" rel="stylesheet" type="text/css">
+  <link href="./css/animations.css" rel="stylesheet" type="text/css">
   <link href="./css/styles.css" rel="stylesheet" type="text/css">
-
-  <style>
-    body {
-      background-color: #000;
-      transition: background-color 1s;
-    }
-  </style>
 </head>
-<script>
-  //AIzaSyDW-HXqhJToIsAoLnvfExAO9dWQFaxYxAg
-</script>
 
 <body class="corpo" data-fundo>
+
   <main class="corpo__ilustracao">
     <div class="box">
-      <select name="" id="">
-        <option value="pt">
-          <img src="" alt="">
-          Brasil
-        </option>
-        <option value="en" selected>
-          <img src="" alt="">
-          Inglês
-        </option>
-      </select>
+
+      <div class="bandeiras" data-bandeiras>
+
+        <div data-bandeira-selecionada>
+          <div class="bandeira bandeira__selecionada" data-bandeira-sigla="en">
+            <img class="bandeira__imagem" src="./images/bandeiras/ca.svg" alt="Bandeira - Canada">
+            <span class="bandeira__lingua" data-bandeira-pais="Canada">Inglês</span>
+          </div>
+        </div>
+
+        <ul class="bandeira__opcoes" data-bandeiras-opcoes>
+        </ul>
+
+      </div>
+
       <input type="text" name="" id="" class="box__say" data-hello-word value="Hello World" disabled>
     </div>
   </main>
 
-  <script type="module" src="./js/metodoTraduzir.js"></script>
+  <script src="./js/orderAlfabetica.js"></script>
   <script src="./js/mudancaHorario.js"></script>
+  <script type="module" src="./API/metodoTraduzir.js"></script>
+  <script type="module" src="./API/exibeOpcoes.js"></script>
 </body>
 
 </html>

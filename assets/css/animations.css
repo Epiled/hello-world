@@ -1,0 +1,13 @@
+@keyframes boing {
+  0% {
+    transform: translateY(0) scaleX(1) scaleY(.5) rotate(180deg);
+  }
+
+  50% {
+    transform: translateY(-.75rem) scaleX(.5) scaleY(1) rotate(180deg)
+  }
+
+  100% {
+    transform: translateY(0) scaleX(1) scaleY(.5) rotate(180deg)
+  }
+}
