@@ -1,30 +1,27 @@
 ![capa-spotify](https://user-images.githubusercontent.com/55258483/178308366-ea3f7e9b-d834-4a28-a943-13bf69626121.png)
 
-<h1 align="center" id="sobre">🟢 🎵 Spotify 2017 🎵 🟢</h1>
+<h1 align="center" id="sobre">🗺 🗣 Hello Word 🗣 🗺</h1>
 
-<p>Primeiro projeto concluido do curso 
-  <a href="https://www.udemy.com/course/curso-completo-do-desenvolvedor-web/">"Curso completo de Desenvolvimento Web 2018 - Crie 6 projetos"</a>
-  do professor <a href="https://www.linkedin.com/in/jorgesantanabr/">Jorge Sant' Ana</a>,
-  este primeiro projeto foi a construção da página de Home do Spotify de 2017 com o modo mobile.
+<p>
+  Projeto de teste, com o intuido de aprender sobre o cunsumo de APIs do Google
 </p>
 
-<p>O projeto foi refatorado em 2022 para atualizar as tecnologia do Bootstrap 3 para o Bootstrap 5, e remover a dependência do Jquery,
-alem disso o projeto passou por otimizações afim de obter melhores resultados de performance.
+<p>
+  A API escolhida foi a Cloud Translation API
 </p>
 
-![Badge](https://img.shields.io/github/last-commit/Epiled/Spotify?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/code-size/Epiled/Spotify?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/count/Epiled/Spotify?style=for-the-badge)
+![Badge](https://img.shields.io/github/last-commit/Epiled/hello-world?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/code-size/Epiled/hello-world?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/count/Epiled/hello-world?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
-![Bagde](https://img.shields.io/github/v/release/epiled/Spotify?style=for-the-badge)
-![Bagde](https://img.shields.io/github/license/Epiled/Spotify?style=for-the-badge)
+![Bagde](https://img.shields.io/github/v/release/epiled/hello-world?style=for-the-badge)
+![Bagde](https://img.shields.io/github/license/Epiled/hello-world?style=for-the-badge)
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Badge](https://img.shields.io/badge/-Bootstrap5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Badge](https://img.shields.io/badge/-Gulp-CF4647?style=for-the-badge&logo=gulp&logoColor=white)
-![Badge](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+
 
 <h2> 📑 Tabela de Conteúdos </h2>
 
@@ -42,8 +39,8 @@ alem disso o projeto passou por otimizações afim de obter melhores resultados 
 
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
-<p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho</p>
-<p>Spotify: <a href="epiled.github.io/spotify/">epiled.github.io/spotify/</a></p>
+<p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho, além de poder testar o funcionamento da aplicação</p>
+<p>Hello World: <a href="epiled.github.io/hello-word/">epiled.github.io/hello-word/</a></p>
 
 ![spotify_desktop](https://user-images.githubusercontent.com/55258483/178335246-2bbf5a76-9d7a-4594-a7ed-49df254586a9.gif)
 ![spotify_mobile](https://user-images.githubusercontent.com/55258483/178335669-263d3077-5bcd-40dd-9753-bb059217c750.gif)
@@ -55,8 +52,8 @@ alem disso o projeto passou por otimizações afim de obter melhores resultados 
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
 ```
-1. git clone https://github.com/Epiled/Spotify.git
-2. cd Spotify
+1. git clone https://github.com/Epiled/hello-world.git
+2. cd hello-world
 ```
 
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>
@@ -88,9 +85,7 @@ As seguintes tecnologias foram usadas na construção deste projeto:
   <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML5</a></li>
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
   <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a></li>
-  <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a></li>
-  <li><a href="https://gulpjs.com/" target="_blank">Gulp</a></li>
-  <li><a href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
+  <li><a href="https://cloud.google.com/translate?hl=pt-br" target="_blank">Google API</a></li>
 </ul>
 
 <h2 id="autor"> 👨‍💻 Autor </h2>
