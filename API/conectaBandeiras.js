@@ -1,4 +1,5 @@
-const endpointDaApi = 'http://localhost:3000/paises';
+// const endpointDaApi = 'http://localhost:3000/paises';
+const endpointDaApi = 'https://epiled.github.io/hello-world/paises';
 
 async function listaPaises() {
   const conexao = await fetch(endpointDaApi);
