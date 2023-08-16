@@ -1,5 +1,5 @@
 // const endpointDaApi = 'http://localhost:3000/paises';
-const endpointDaApi = 'https://epiled.github.io/hello-world/paises';
+const endpointDaApi = 'https://epiled.github.io/hello-world/dadosBandeiras.json';
 
 async function listaPaises() {
   const conexao = await fetch(endpointDaApi);
