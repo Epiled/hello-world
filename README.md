@@ -20,6 +20,7 @@
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Badge](https://img.shields.io/badge/-PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
 <h2> 📑 Tabela de Conteúdos </h2>
 
@@ -87,6 +88,7 @@ As seguintes tecnologias foram usadas na construção deste projeto:
   <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML5</a></li>
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
   <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a></li>
+  <li><a href="https://web.dev/progressive-web-apps/" target="_blank">PWA</a></li>
   <li><a href="https://cloud.google.com/translate?hl=pt-br" target="_blank">Google API</a></li>
 </ul>
 
