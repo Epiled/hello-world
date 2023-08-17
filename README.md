@@ -1,4 +1,4 @@
-![capa-spotify](https://user-images.githubusercontent.com/55258483/178308366-ea3f7e9b-d834-4a28-a943-13bf69626121.png)
+![google-api](https://github.com/Epiled/hello-world/assets/55258483/6a1714ce-b690-49e0-ba4e-b03784ef54fb)
 
 <h1 align="center" id="sobre">🗺 🗣 Hello Word 🗣 🗺</h1>
 
@@ -21,8 +21,6 @@
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-
-
 <h2> 📑 Tabela de Conteúdos </h2>
 
 <!--ts-->
@@ -42,8 +40,8 @@
 <p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho, além de poder testar o funcionamento da aplicação</p>
 <p>Hello World: <a href="epiled.github.io/hello-word/">epiled.github.io/hello-word/</a></p>
 
-![spotify_desktop](https://user-images.githubusercontent.com/55258483/178335246-2bbf5a76-9d7a-4594-a7ed-49df254586a9.gif)
-![spotify_mobile](https://user-images.githubusercontent.com/55258483/178335669-263d3077-5bcd-40dd-9753-bb059217c750.gif)
+![google-api-desktop](https://github.com/Epiled/hello-world/assets/55258483/d4324720-1102-4a94-b67b-da8eb2d87e64)
+![google-api-mobile](https://github.com/Epiled/hello-world/assets/55258483/5b4c209b-b9a1-4cca-ae42-4e01668df392)
 
 <h2 id="performance"> 📈 Performance Lighthouse </h2>
 
@@ -54,28 +52,32 @@
 ```
 1. git clone https://github.com/Epiled/hello-world.git
 2. cd hello-world
+3.npm i json-server
 ```
 
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>
 
 <h3 id="arquivos_locais">Arquivos Locais</h3>
-<p>Nesse ponto o projeto já pode ser executado no navegador através do arquivo "index.html" tanto na pasta "src" quanto na "dist"</p>
 
-<p>Para teste de performance e desempenho recomenda-se usar o "index.html" da pasta "dist", já que esse é o arquivo que será colocado no ar</p>
+Descomente as linhas 3 e 11;
+Comente as linhas 15 e 7;
+```
+1. cd API
+2. json-server --watch dadosBandeiras.js
+```
+<p>Nesse ponto o projeto já pode ser executado no navegador</p>
+<p>Basta abrir a index.html através do Live server</p>
 
-<p>Caso queira testar a ferramenta será necessário cumprir o pré-requisito</p>
+<h3 id="arquivos_locais">Arquivos Onlines</h3>
+
+Não há necessidade de descomentar linhas. Apenas abra a index.html através do Live server
 
 <h3 id="pre-requisitos">Pré-requisito</h3>
 
-```
-1. npm install
-```
-
-<p>Para testar a ferramenta de automatização de processos pre-deploy execute o seguinte comando no terminal da pasta Spotify</p>
-
-```
-1. gulp build
-```
+<ul>
+  <li>JSON-server</li>
+  <li>Live Server</li>
+</ul>
 
 <h2 id="tecnologias"> 🛠 Tecnologias </h2>
 
