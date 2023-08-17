@@ -6,7 +6,6 @@ const bandeirasOpcoes = document.querySelector('[data-bandeiras-opcoes]');
 const opcoesOrdenadas = ordemAlfabetica(await conectaApi.listaPaises());
 const bandeiraSelecionada = document.querySelector('[data-bandeira-selecionada]');
 
-
 bandeiras.addEventListener('click', () => {
   bandeiraSelecionada.children[0].classList.toggle('bandeira__selecionada--ativo')
   bandeirasOpcoes.classList.toggle('bandeira__opcoes--ativo');

@@ -1,6 +1,6 @@
 const cacheName = 'API de tradução';
 
-const versao = 4;
+const versao = 5;
 
 self.addEventListener('install', function (event) {
   event.waitUntil(
