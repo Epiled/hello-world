@@ -39,7 +39,7 @@
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
 <p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho, além de poder testar o funcionamento da aplicação</p>
-<p>Hello World: <a href="epiled.github.io/hello-word/">epiled.github.io/hello-word/</a></p>
+<p>Hello World: <a href="https://epiled.github.io/hello-world/">epiled.github.io/hello-word/</a></p>
 
 ![google-api-desktop](https://github.com/Epiled/hello-world/assets/55258483/d4324720-1102-4a94-b67b-da8eb2d87e64)
 ![google-api-mobile](https://github.com/Epiled/hello-world/assets/55258483/5b4c209b-b9a1-4cca-ae42-4e01668df392)
