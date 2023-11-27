@@ -3,7 +3,7 @@
 <h1 align="center" id="sobre">🗺 🗣 Hello Word 🗣 🗺</h1>
 
 <p>
-  Projeto de teste, com o intuido de aprender sobre o cunsumo de APIs do Google
+  Projeto de teste, com o intuido de aprender sobre o consumo de APIs do Google
 </p>
 
 <p>
