@@ -1,5 +1,7 @@
 ![google-api](https://github.com/Epiled/hello-world/assets/55258483/6a1714ce-b690-49e0-ba4e-b03784ef54fb)
 
+<h1 align="center" id="sobre">⚠ Projeto desativado ⚠</h1>
+
 <h1 align="center" id="sobre">🗺 🗣 Hello Word 🗣 🗺</h1>
 
 <p>
